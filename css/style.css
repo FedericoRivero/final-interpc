@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    font-family: 'Roboto Mono';
+    font-size: 15px;
+}
+
+/* HEADER */
+header {
+  background:#29b6f6;
+  height: 30px;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;    
+}
+
+.logo {
+  margin-top: -10px;
+  padding-left: 50px;
+  height: 80px;
+  width: 80px;
+  position: fixed;
+}
+
+
+header ul {
+  text-align: right;
+  padding-right: 20px;
+}
+
+header ul li {
+  display: inline;
+}
+
+header ul li a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* image responsive */
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+/* INICIO */
+.inicio {
+  padding: 15px;
+}
+
+.inicio h1 {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 10px;
+}
+
+.inicio p {
+  margin-bottom: 10px;
+}
+
+/* Acerca de */
+.acercade {
+  padding: 15px;
+}
+
+.acercade h1 {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 10px;
+}
+
+.acercade p {
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+/* Contacto */
+.contacto {
+  padding: 15px;
+}
+
+.contacto h1 {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 10px;
+}
+
+.contacto p {
+  margin-bottom: 10px;
+  margin-left: 15px;
+
+}
+
+/* FOOTER */
+footer {
+  margin-top: 30px;
+  background: #ec9b23;
+  padding-top: 15px;
+  padding: 15px;
+  position: static;
+  left: 0;
+  bottom: 0;
+  color: white;
+  text-align: center;
+}
+
+footer h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+/* iconos */
+.fa {
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* cards */
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.contenedor {
+  margin: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
