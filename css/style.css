@@ -138,6 +138,11 @@ h2 {
   margin-bottom: 40px;
 }
 
+h3 {
+  text-align: center;
+  text-transform: lowercase;
+}
+
 .contenedor {
   margin: 40px;
   display: flex;
